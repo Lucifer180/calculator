@@ -1,0 +1,60 @@
+
+
+.container {
+  width: 350px;
+  height: 550px;
+  padding: 40px 30px 30px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #e1bd0b;
+}
+.input{
+  outline: 1px black;
+  border: 1px black;
+}
+
+.keypad {
+  display: grid;
+}
+
+input {
+  height: 80px;
+  width: 100%;
+  background-color: transparent;
+  font-size: 25px;
+  outline: none;
+  border: 0px;
+  color: rgb(41, 41, 41);
+  text-align: right;
+  font-weight: 800;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.clear {
+  grid-column: 1/3;
+  grid-row: 1;
+  width: 150px;
+  gap: 10px;
+}
+
+.equal {
+  grid-column: 3/5;
+  grid-row: 5;
+}
+
+.color {
+  color: white;
+  background-color: #56cbd5;
+  font-size: 20px;
+  font-weight: 600;
+}
+button {
+  margin: 4px;
+  margin-top: 7px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
